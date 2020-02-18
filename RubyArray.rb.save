@@ -1,0 +1,21 @@
+arrayAngka = [1,2,3,4]
+puts arrayAngka
+
+arrayCampur = ['saya',2,:titikdua]
+puts arrayCampur
+
+arrayKosong = []
+puts arrayKosong
+
+array = %w(1,2,3,4,5
+
+puts array[4]
+puts array[0]
+puts array[9]
+
+puts array.first
+puts array.last
+
+array[4] = 9
+puts array[4]
+

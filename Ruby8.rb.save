@@ -1,0 +1,22 @@
+method = Proc.new do |namadepan, namabelakang|
+ "#{namadepan}" "#{namabelakang}"
+end
+
+namaLengkap = method.call("Farhan","Darmawan")
+puts namaLengkap
+puts namaLengkap.upcase
+
+poin = 0
+
+while poin <4 do
+ poin +=1
+ puts poin
+end
+
+def kirim(email,pesan, harga)
+ puts "email #{email}"
+ puts "pesan #{pesan}"
+ puts "harga #{harga}"
+end
+
+kirim
